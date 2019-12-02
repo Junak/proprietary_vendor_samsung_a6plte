@@ -19,6 +19,19 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),a6plte)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := camera.msm8953
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SHARED_LIBRARIES := android.frameworks.displayservice@1.0
+LOCAL_SRC_FILES := proprietary/vendor/lib/hw/camera.msm8953.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := proprietary/vendor/app/TimeService/TimeService.apk
