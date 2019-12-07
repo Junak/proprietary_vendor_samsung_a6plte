@@ -174,6 +174,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a6plte/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/samsung/a6plte/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
     vendor/samsung/a6plte/proprietary/vendor/lib/hw/vulkan.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8953.so \
+    vendor/samsung/a6plte/proprietary/vendor/lib/hw/gralloc.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.msm8953.so \
+    vendor/samsung/a6plte/proprietary/vendor/lib/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgrallocutils.so \
     vendor/samsung/a6plte/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
     vendor/samsung/a6plte/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     vendor/samsung/a6plte/proprietary/vendor/lib/libDRPlugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDRPlugin.so \
